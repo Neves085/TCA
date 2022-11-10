@@ -115,7 +115,7 @@ display: none;
 .desabafar-text{
     height: 20px;
     width: 300px;
-    border-radius: 10px;
+    
     border-width: 1px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -138,23 +138,34 @@ display: none;
     gap: 5px;
 }
 .hora-post{
+    color:#c1272d;
     font-weight: 300;
     font-size: 0.9rem;
 }
+span .hora-post{
+    color: #c1272d;
+}
 .post-text{
+    
     font-family: 'Roboto', sans-serif;
-    margin-top: 5px;
+    margin: 5px 48px;
     font-weight: 400;
 }
 .post-icons{
     display: flex;
     gap: 50px;
+    margin: 5px 48px;
 }
 .like, .comentar{
+    font-size: 15px;
+    
+    
+    color: #c1272d;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 9px;
+    
     font-family: 'Sarala', sans-serif;
 }
 .like:hover, .comentar:hover{
@@ -192,8 +203,10 @@ display: none;
     
 }
 .roda-titulo{
+
+    display: flex;
     align-items: center;
-    height: 30px;
+    
     padding: 0;
 }
 .roda-titulo h5{
@@ -213,7 +226,7 @@ display: none;
     margin-top: 40px;
     height: 30px;
     color: white;
-    border-radius: 20px;
+    border-radius: 5px;
     border: none;
     background-color: #7e5d2df8;
 }
@@ -244,12 +257,12 @@ display: none;
 
 .slide-content{
     overflow: hidden;
-    border-radius: 25px;
+    border-radius: 5px;
     margin: 0 40px;
 }
 
 .card{
-    border-radius: 25px;
+    border-radius: 5px;
     background-color: #f8f2e9;
 }
 .image-content, .card-content{
@@ -272,8 +285,8 @@ display: none;
     top: 0;
     width: 100%;
     height: 80%;
-    background-color: #f7931e;
-    border-radius: 25px;
+    background-color: #c1272d;
+    border-radius: 5px;
 }
 
 
@@ -310,9 +323,9 @@ display: none;
     font-size: 16px;
     color: white;
     padding: 8px 16px;
-    background-color: #f7931e;
+    background-color: #c1272d;
     margin: 14px;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
     transition: all 0.3 ease;
 }
@@ -372,6 +385,7 @@ display: none;
 }
 
 footer{
+    margin-top:20px ;
     background-color: #f8f2e9;
 }
 
@@ -543,14 +557,14 @@ footer{
         display: flex;
         flex-direction: row;
         align-items: center;
-        
+        gap: 10px;
         padding: 20px;
         justify-content: space-around;
     }
     .desabafar-text{
         height: 20px;
         width: 300px;
-        border-radius: 10px;
+        
         border-width: 1px;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
@@ -574,7 +588,7 @@ footer{
         gap: 5px;
     }
     .hora-post{
-        color: #f7931e;
+        color: #c1272d;
         font-weight: 300;
         font-size: 0.9rem;
     }
@@ -584,7 +598,7 @@ footer{
         font-weight: 400;
     }
     .post-icons{
-        color:#f7931e;
+        
         margin-top: 15px;
         display: flex;
         gap: 50px;
@@ -601,10 +615,14 @@ footer{
         opacity: 0.7;
     }
     .roda-conversa-titulo{
-        padding: 17px;
+        padding: 10px;
         text-align: center;
         font-family: 'Poppins', sans-serif;
         font-weight: 700;
+       
+    }
+    .roda-conversa-titulo h5{
+        font-size: 19px;
     }
     .roda-conversa{
         background-color: #f8f2e9;
@@ -629,6 +647,7 @@ footer{
         
     }
     .roda-titulo{
+        margin-bottom: 10px;
         align-items: center;
         height: 30px;
         padding: 0;
@@ -648,7 +667,7 @@ footer{
         margin-top: 40px;
         height: 30px;
         color: white;
-        border-radius: 20px;
+        
         border: none;
         background-color: #f7931e;
     }
