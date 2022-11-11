@@ -217,7 +217,7 @@ span .hora-post{
 }
 
 .roda-subtitulo{
-    padding-top:1px ;
+    padding-top:10px ;
     opacity: 0.6;
     justify-content: space-between;
     display: flex;
@@ -300,11 +300,12 @@ span .hora-post{
     border-radius: 50%;
     
     background-color: #f8f2e9;
-    padding: 3px;
+    padding: 4px;
 }
 .card-image .card-img{
     width: 100%;
     height: 100%;
+    background-color: #fff;
     object-fit: cover;
     border-radius: 50%;
    
@@ -602,16 +603,20 @@ footer{
     }
     .post-icons{
         
-        margin-top: 15px;
+        margin: 15px 48px;
         display: flex;
-        gap: 50px;
+        gap: 10px;
     }
     .like, .comentar{
+        font-size: 13px;
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 9px;
         font-family: 'Sarala', sans-serif;
+    }
+    .post-icons .like img, .post-icons .comentar img{
+        width: 18px;
     }
     .like:hover, .comentar:hover{
         cursor: pointer;
@@ -658,7 +663,7 @@ footer{
     }
     
     .roda-subtitulo{
-        padding-top:1px ;
+        padding-top:10px ;
         opacity: 0.6;
         justify-content: space-between;
         display: flex;
